@@ -17,7 +17,7 @@ echo "Checking VPS"
 
 clear
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/lizsvr/cfnfree/main/backup"
+akbarvpn="raw.githubusercontent.com/bracoli/mama/main/backup"
 
 curl https://rclone.org/install.sh | bash
 printf "q\n" | rclone config
@@ -39,8 +39,8 @@ account default
 host smtp.gmail.com
 port 587
 auth on
-user lizsvrbckup@gmail.com
-from lizsvrbckup@gmail.com 
+user lukabckup@gmail.com
+from lukabckup@gmail.com 
 password yourpaswordapp
 logfile ~/.msmtp.log
 EOF
