@@ -15,7 +15,7 @@ LIGHT='\033[0;37m'
 MYIP=$(wget -qO- ipinfo.io/ip);
 
 clear
-lizupdate="raw.githubusercontent.com/lizsvr/cfnfree/main/update"
+lizupdate="raw.githubusercontent.com/bracoli/mama/main/update"
 # change direct
 cd /usr/bin
 # remove file
